@@ -6,8 +6,8 @@ public class Account {
 	private String ifsc;
 	
 	Account(){
+		
 	}
-
 	Account(int accno, double balance, String ifsc) {
 		this.accno = accno;
 		this.balance = balance;
@@ -43,3 +43,4 @@ public class Account {
 	}
 
 }
+
